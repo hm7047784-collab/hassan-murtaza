@@ -1,0 +1,7 @@
+{
+  "name": "GTA V: Los Santos City",
+  "description": "An action-packed 3D open-world GTA game with Super Ultra graphics, Airport, flyable Helicopters, Fort Zancudo Military Base, Tanks, Central Gardens, Residential Neighborhoods, police chases, and heists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

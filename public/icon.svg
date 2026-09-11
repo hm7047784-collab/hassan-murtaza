@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#142017" />
+      <stop offset="70%" stop-color="#090d13" />
+      <stop offset="100%" stop-color="#030712" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="35%" stop-color="#eab308" />
+      <stop offset="70%" stop-color="#ca8a04" />
+      <stop offset="100%" stop-color="#854d0e" />
+    </linearGradient>
+    <linearGradient id="greenBanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="50%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="215" fill="none" stroke="#eab308" stroke-width="6" stroke-dasharray="12 6" opacity="0.75" />
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#22c55e" stroke-width="3" opacity="0.6" />
+
+  <!-- GTA Roman Numeral 'V' -->
+  <path d="M 125 125 L 210 125 L 256 325 L 302 125 L 387 125 L 290 405 L 222 405 Z" fill="url(#goldGrad)" stroke="#fef08a" stroke-width="4" stroke-linejoin="round" />
+  <path d="M 140 135 L 200 135 L 256 310 L 256 370 L 228 370 Z" fill="#ca8a04" opacity="0.4" />
+
+  <!-- Green 'FIVE' / Banner Ribbon -->
+  <rect x="90" y="225" width="332" height="58" rx="8" fill="url(#greenBanner)" stroke="#ffffff" stroke-width="3" />
+  <text x="256" y="266" fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="36" font-weight="900" letter-spacing="8" text-anchor="middle" font-style="italic">LOS SANTOS</text>
+
+  <!-- Stars -->
+  <polygon points="256,70 262,86 279,86 265,96 270,112 256,102 242,112 247,96 233,86 250,86" fill="#eab308" />
+  <polygon points="210,80 215,93 229,93 218,101 222,114 210,106 198,114 202,101 191,93 205,93" fill="#eab308" opacity="0.8" />
+  <polygon points="302,80 307,93 321,93 310,101 314,114 302,106 290,114 294,101 283,93 297,93" fill="#eab308" opacity="0.8" />
+</svg>
